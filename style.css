@@ -2,4 +2,39 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #4B5563;
+}
+
+header {
+  border: solid;
+  display: flex;
+  justify-content: space-between;
+  margin: 31px 37px;
+}
+header h1 {
+  font-size: 25px;
+  color: #1F2937;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header li {
+  list-style: none;
+}
+header a {
+  color: #4B5563;
+  text-decoration: none;
+}
+
+.select {
+  background-color: #16A34A;
+}
+.selecthover {
+  background-color: #21C05C;
 }/*# sourceMappingURL=style.css.map */
