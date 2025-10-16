@@ -10,17 +10,11 @@ body {
 }
 
 header {
-  border: solid;
   display: flex;
   justify-content: space-between;
   height: 9vh;
-  margin-top: 31px;
+  margin: 1% 0 0;
   padding: 0 2%;
-}
-header h1 {
-  font-size: 25px;
-  color: #1F2937;
-  text-align: center;
 }
 header ul {
   display: flex;
@@ -36,6 +30,22 @@ header a {
   text-decoration: none;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.logo img {
+  width: 35px;
+  height: 35px;
+}
+.logo h2 {
+  font-size: 25px;
+  color: #1F2937;
+  text-align: center;
+}
+
 .active {
   color: #FFFFFF;
   background-color: #16A34A;
@@ -43,6 +53,44 @@ header a {
   border: solid 1px #21C05C;
   border-radius: 5px;
 }
-.activehover {
+.active:hover {
   background-color: #21C05C;
+  transition: 0.3s;
+}
+
+main {
+  border: solid;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.intro {
+  border: solid;
+  width: 52vw;
+}
+.intro h1 {
+  color: #1F2937;
+  font-size: 60px;
+  gap: 20px;
+}
+.intro p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.doar {
+  color: #FFFFFF;
+  background-color: #16A34A;
+  padding: 10px 30px;
+  border: solid 1px #21C05C;
+  border-radius: 5px;
+}
+
+.adquirir {
+  color: #2563EB;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border: solid 1px #2563EB;
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */
