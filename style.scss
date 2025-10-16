@@ -13,17 +13,21 @@ header{
     border: solid;
     display: flex;
     justify-content: space-between;
-    margin: 31px 37px;
+    height: 9vh;
+    margin-top: 31px;
+    padding: 0 2%;
 
     h1{
         font-size: 25px;
         color: #1F2937;
+        text-align: center;
     }
 
     ul{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 33px;
     }
 
     li{
@@ -36,9 +40,12 @@ header{
     }
 }
 
-.select{
+.active{
+    color: #FFFFFF;
     background-color: #16A34A;
-    
+    padding: 10px 30px;
+    border: solid 1px #21C05C;
+    border-radius: 5px;
     
     &hover{
         background-color: #21C05C;
