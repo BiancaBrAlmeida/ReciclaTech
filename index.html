@@ -29,73 +29,112 @@
     </header>
 
     <main>
-        <!-- Bloco inicial do site -->
+        <!-- Sessão inicial do site -->
         <section class="intro">
             <div class="info">
                 <h1>Dê uma segunda vida aos seus eletrônicos!</h1>
-                <h4>Conectamos pessoas que querem doar eletrônicos em bom estado com quem precisa deles. Simples, gratuito e sustentável!</h4>
-                <button class="give">Quero doar
-                    <img src="./img/iconpresente1.png" alt="Icone de presente branco">
-                </button>
-                <button class="adquire">Quero Adquirir
-                    <img src="./img/iconcoracao1.png" alt="Icone de coração azul">
-                </button>
+                <p class="subtitle">Conectamos pessoas que querem doar eletrônicos em bom estado com quem precisa deles. Simples, gratuito e sustentável!</p>
+                <div class="btns-intro">
+                    <button class="btn1" id="give">Quero doar
+                        <img src="./img/iconpresente1.png" alt="Icone de presente branco">
+                    </button>
+                    <button class="btn1" id="adquire">Quero Adquirir
+                        <img src="./img/iconcoracao1.png" alt="Icone de coração azul">
+                    </button>
+                </div>
             </div>
-            <div>
-                <img src="./img/reciclagem.png" alt="Sinal de recliclagem feita com circuitos">
-            </div>
+            <img src="./img/reciclagem.png" alt="Sinal de recliclagem feita com circuitos">
         </section>
 
-        <!-- Bloco com dados -->
+        <!-- Sessão de estatísticas -->
         <section class="data">
-            <div>
+            <article>
                 <h2 class="numbers">2.5k+</h2>
                 <p class="inf">Eletrônicos doados</p>
-            </div>
-            <div>
+            </article>
+            <article>
                 <h2 class="numbers">1.8k+</h2>
                 <p class="inf">Famílias beneficiadas</p>
-            </div>
-            <div>
+            </article>
+            <article>
                 <h2 class="numbers">95%</h2>
                 <p class="inf">Satisfação dos usuários</p>
-            </div>
+            </article>
         </section>
 
-        <!-- Mais info -->
+        <!-- Sessão de como funciona -->
         <section class="quest-ans">
             <h2>Como funciona?</h2>
-            <h3>É mais fácil que trocar a pilha do controle!</h3>
-        </section>
-        
-        <section class="card">
-            <div class="doadores">
-                <img src="./img/iconpresente2.png" alt="Icone de presente verde">
-                <h3>Para Doadores</h3>
+            <p>É mais fácil que trocar a pilha do controle!</p>
+
+            <!-- Cards -->
+            <div class="cards"> 
+
+                <!-- Card doadores -->
+                <div class="card-doar">
+                    <img src="./img/iconpresente2.png" alt="Icone de presente verde">
+                    <h3 class="doar-title">Para Doadores</h3>
+                </div>
+                <p class="sub">Transforme seu "lixo eletrônico" no tesouro de alguém</p>
+                <ol>
+                    <li>
+                        <span class="numb1">1</span>
+                        <div>
+                            <p class="p1">Cadastre seu eletrônico</p>
+                            <p>Tire umas fotos, descreva o estado e pronto!</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="numb1">2</span>
+                        <div>
+                            <p class="p1">Aguarde o match</p>
+                            <p>Alguém vai se interessar pelo seu item</p>
+                        </div> 
+                    </li>
+                    <li>
+                        <span class="numb1">3</span> 
+                        <div>
+                            <p class="p1">Combine a entrega</p>
+                            <p>Vocês decidem como fazer a entrega</p>
+                        </div> 
+                    </li>
+                </ol>
+                </div>
+
+                <!-- Card adquirentes -->
+                <div class="card-adquirir">
+                    <img src="./img/iconpresente2.png" alt="Icone de presente verde">
+                    <h3 class="adquirir-title">Para Adquirentes</h3>
+                </div>
+                <p class="sub">Encontre o eletrônico dos seus sonhos de graça</p>
+                <ol>
+                    <li>
+                        <span class="numb2">1</span>
+                        <div>
+                            <p class="p1">Explore os itens</p>
+                            <p>Navegue pelos eletrônicos disponíveis</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="numb2">2</span>
+                        <div>
+                            <p class="p1">Demonstre interesse</p>
+                            <p>Clique em "Tenho interesse" no item</p>
+                        </div> 
+                    </li>
+                    <li>
+                        <span class="numb2">3</span> 
+                        <div>
+                            <p class="p1">Receba seu novo gadget</p>
+                            <p>Combine com o doador e seja feliz!</p>
+                        </div> 
+                    </li>
+                </ol>
+                </div>
             </div>
-            <p>Transforme seu "lixo eletrônico" no tesouro de alguém</p>
-            <div>
-    
-            </div>
-            
         </section>
 
         <!--
-
-        <p>Cadastre seu eletrônico</p>
-        <p>Tire umas fotos, descreva o estado e pronto!</p>
-        <p>Aguarde o match</p>
-        <p>Alguém vai se interessar pelo seu item</p>
-        <p>Combine a entrega</p>
-        <p>Vocês decidem como fazer a entrega</p>
-        <h3>Para Adquirentes</h3>
-        <p>Encontre o eletrônico dos seus sonhos de graça</p>
-        <p>Explore os itens</p>
-        <p>Navegue pelos eletrônicos disponíveis</p>
-        <p>Demonstre interesse</p>
-        <p>Clique em "Tenho interesse" no item</p>
-        <p>Receba seu novo gadget</p>
-        <p>Combine com o doador e seja feliz!</p>
         <h2>Produtos disponiveis</h2>
         <h3>Categorias mais populares</h3>
         <h4>Fones</h4>

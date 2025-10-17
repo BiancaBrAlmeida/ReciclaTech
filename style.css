@@ -6,7 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #4B5563;
+  color: #4b5563;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
   height: 9vh;
   margin: 1% 0 0;
   padding: 0 2%;
-  border-bottom: solid 1px #B4AEAE;
+  border-bottom: solid 1px #b4aeae;
 }
 header ul {
   display: flex;
@@ -27,7 +27,7 @@ header li {
   list-style: none;
 }
 header a {
-  color: #4B5563;
+  color: #4b5563;
   text-decoration: none;
 }
 
@@ -43,77 +43,80 @@ header a {
 }
 .logo h2 {
   font-size: 25px;
-  color: #1F2937;
+  color: #1f2937;
   text-align: center;
 }
 
 .active {
-  color: #FFFFFF;
-  background-color: #16A34A;
+  color: #ffffff;
+  background-color: #16a34a;
   padding: 10px 30px;
-  border: solid 1px #21C05C;
+  border: solid 1px #21c05c;
   border-radius: 5px;
 }
 .active:hover {
-  background-color: #21C05C;
+  background-color: #21c05c;
   transition: 0.3s;
 }
 
 .intro {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 10vh;
+  align-items: center;
+  margin: 3.5rem;
   flex-wrap: wrap;
 }
-
-.info {
+.intro .info {
+  display: flex;
+  flex-direction: column;
   width: 60vw;
+  gap: 20px;
 }
-.info h1 {
-  color: #1F2937;
+.intro .info h1 {
+  color: #1f2937;
   font-size: 60px;
-  margin-bottom: 3%;
 }
-.info h4 {
+.intro .info .subtitle {
   font-size: 20px;
   margin-bottom: 7%;
-  font-weight: 400;
   font-family: "Inter", sans-serif;
 }
-
-.give {
-  color: #FFFFFF;
-  background-color: #16A34A;
-  padding: 10px 30px;
-  border: solid 1px #21C05C;
-  border-radius: 5px;
+.intro .info button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-family: "Poppins", sans-serif;
-  margin: 0 4% 0 0;
   cursor: pointer;
 }
-.give img {
-  width: 14px;
+.intro .info button img {
+  width: 15px;
   height: 14px;
 }
-.give:hover {
-  background-color: #21C05C;
+.intro .info .btns-intro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.intro .info #give {
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #16a34a;
+  border: solid 1px #21c05c;
+  border-radius: 5px;
+}
+.intro .info #give:hover {
+  background-color: #21c05c;
   transition: 0.3s;
 }
-
-.adquire {
-  color: #2563EB;
-  background-color: #ffffff;
+.intro .info #adquire {
   padding: 10px 20px;
-  border: solid 1px #2563EB;
+  color: #2563eb;
+  background-color: #ffffff;
+  border: solid 1px #2563eb;
   border-radius: 5px;
-  font-family: "Poppins", sans-serif;
-  cursor: pointer;
 }
-.adquire img {
-  width: 14px;
-  height: 14px;
-}
-.adquire:hover {
+.intro .info #adquire:hover {
   background-color: #dfdfdf;
   transition: 0.3s;
 }
@@ -122,13 +125,12 @@ header a {
   display: flex;
   justify-content: space-around;
   margin-top: 10vh;
-  background-color: #F3F5F8;
+  background-color: #f3f5f8;
   padding: 2%;
   align-self: center;
 }
-
-.numbers {
-  color: #16A34A;
+.data .numbers {
+  color: #16a34a;
   font-size: 40px;
 }
 
@@ -138,21 +140,53 @@ header a {
   margin: 10vh;
 }
 .quest-ans h2 {
-  color: #1F2937;
+  color: #1f2937;
   font-size: 40px;
   margin-bottom: 3%;
 }
-.quest-ans h3 {
-  font-size: 25px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-}
 
-.card {
-  background-color: #F3F5F8;
+.cards {
+  background-color: #f3f5f8;
   width: 40vw;
+  height: 70vh;
   margin: 10vh;
-  padding: 20px;
+  padding: 40px;
   border-radius: 10px;
-  text-align: center;
+}
+.cards .card-doar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.cards .card-doar .doar-title {
+  color: #16a34a;
+  font-weight: 400;
+  font-size: 25px;
+}
+.cards .sub {
+  margin-bottom: 2rem;
+}
+.cards ol {
+  list-style: none;
+}
+.cards ol li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.cards ol li .numb1 {
+  background-color: #16a34a;
+  color: #fff;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards ol li .p1 {
+  font-weight: bold;
+  color: #09090B;
 }/*# sourceMappingURL=style.css.map */
