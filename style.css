@@ -136,11 +136,6 @@ header .logo h2 {
   flex-direction: column;
   margin: 10vh;
 }
-.quest-ans h2 {
-  color: #1f2937;
-  font-size: 40px;
-  margin-bottom: 3%;
-}
 .quest-ans .cards-como-funciona {
   display: flex;
   justify-content: space-evenly;
@@ -215,17 +210,18 @@ header .logo h2 {
   font-size: 25px;
 }
 
+h2 {
+  color: #1f2937;
+  font-size: 40px;
+  margin-bottom: 3%;
+}
+
 .produtos {
   display: flex;
   flex-direction: column;
   background-color: #f3f5f8;
   padding: 10vh;
   flex-wrap: wrap;
-}
-.produtos h2 {
-  color: #1f2937;
-  font-size: 40px;
-  margin-bottom: 3%;
 }
 .produtos .cards-produtos {
   display: flex;
@@ -270,4 +266,37 @@ header .logo h2 {
 .produtos .cards-produtos .card-items .items button:hover {
   background-color: #21c05c;
   transition: 0.3s;
+}
+
+.experiencia {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh;
+}
+.experiencia .title-ex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.experiencia .cards-ex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.experiencia .cards-ex .card-ex {
+  border: solid 1px #9CA3AF;
+  border-left: solid 4px #9CA3AF;
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  margin-top: 6rem;
+  border-radius: 10px;
+  width: 25vw;
+  padding: 3%;
+}
+.experiencia .cards-ex .card-ex .icon {
+  margin-bottom: 1rem;
+}
+.experiencia .cards-ex .card-ex .class {
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */

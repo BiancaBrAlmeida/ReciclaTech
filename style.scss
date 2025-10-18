@@ -155,12 +155,6 @@ header {
   flex-direction: column;
   margin: 10vh;
 
-  h2 {
-    color: #1f2937;
-    font-size: 40px;
-    margin-bottom: 3%;
-  }
-
   .cards-como-funciona {
     display: flex;
     justify-content: space-evenly;
@@ -246,18 +240,18 @@ header {
   font-size: 25px;
 }
 
+h2{
+  color: #1f2937;
+  font-size: 40px;
+  margin-bottom: 3%;
+}
+
 .produtos{
   display: flex;
   flex-direction: column;
   background-color: #f3f5f8;
   padding: 10vh;
   flex-wrap: wrap;
-
-  h2{
-    color: #1f2937;
-    font-size: 40px;
-    margin-bottom: 3%;
-  }
 
   .cards-produtos{
     display: flex;
@@ -307,6 +301,44 @@ header {
             transition: 0.3s;
           }
         }
+      }
+    }
+  }
+}
+
+.experiencia{
+  display: flex;
+  flex-direction: column;
+  margin: 10vh;
+
+  .title-ex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards-ex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .card-ex{
+      border: solid 1px #9CA3AF;
+      border-left: solid 4px #9CA3AF;
+      display: flex;
+      flex-direction: column;
+      height: 45vh;
+      margin-top: 6rem;
+      border-radius: 10px;
+      width: 25vw;
+      padding: 3%;
+
+      .icon{
+        margin-bottom: 1rem;
+      }
+
+      .class{
+        font-size: 14px;
       }
     }
   }
