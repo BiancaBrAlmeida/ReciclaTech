@@ -105,7 +105,7 @@ header {
       display: flex;
       align-items: flex-start;
       justify-content: flex-start;
-      gap: 20px;
+      gap: 1.5rem;
     }
 
     #give {
@@ -138,11 +138,11 @@ header {
 
 .data {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 10vh;
   background-color: #f3f5f8;
   padding: 2%;
-  align-self: center;
+  text-align: center;
 
   .numbers {
     color: #16a34a;
@@ -160,84 +160,154 @@ header {
     font-size: 40px;
     margin-bottom: 3%;
   }
-}
 
-.cards {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-
-  .card{
+  .cards-como-funciona {
     display: flex;
-    flex-direction: column;
-    background-color: #f3f5f8;
-    width: 38vw;
-    height: 70vh;
-    margin-top: 6rem;
-    border-radius: 10px;
-    gap: 2.2rem;
-    padding: 2.3rem;  
-  }
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 
-    .card-doar{
+    .card{
+      display: flex;
+      flex-direction: column;
+      background-color: #f3f5f8;
+      width: 38vw;
+      height: 70vh;
+      margin-top: 6rem;
+      border-radius: 10px;
+      gap: 2.2rem;
+      padding: 2.3rem;  
+    }
+
+      .card-doar{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .doar-title{
+          color: #16a34a;
+          font-weight: 400;
+          font-size: 25px;
+        }
+      }
+
+    ol{
+      list-style: none;
+
+      li {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-bottom: 2.2rem;
+
+        .numb1{
+          background-color: #16a34a;
+          color: #fff;
+          border-radius: 50%;
+          width: 32px;
+          height: 32px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .p1{
+          font-weight: bold;
+          color: #09090B;
+        }
+      }
+    }
+
+    .card-adquirir{
       display: flex;
       align-items: center;
       gap: 1rem;
 
-      .doar-title{
-        color: #16a34a;
+      .adquirir-title{
+        color: #2563EB;
         font-weight: 400;
         font-size: 25px;
       }
     }
 
-  ol{
-    list-style: none;
-
-    li {
+    .numb2{
+      background-color: #2563EB;
+      color: #fff;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
       display: flex;
-      align-items: flex-start;
-      gap: 1rem;
-      margin-bottom: 2.2rem;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
 
-      .numb1{
-        background-color: #16a34a;
-        color: #fff;
-        border-radius: 50%;
-        width: 32px;
-        height: 32px;
+.desc{
+  font-size: 25px;
+}
+
+.produtos{
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f5f8;
+  padding: 10vh;
+  flex-wrap: wrap;
+
+  h2{
+    color: #1f2937;
+    font-size: 40px;
+    margin-bottom: 3%;
+  }
+
+  .cards-produtos{
+    display: flex;
+    justify-content: space-evenly;
+
+    .card-items{
+      border: solid 2px #16A34A;
+      display: flex;
+      flex-direction: column;
+      height: 60vh;
+      margin-top: 6rem;
+      border-radius: 10px;
+      background-color: #fff;
+      width: 22vw;
+
+      .items{
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
-      }
+        gap: 1rem;
 
-      .p1{
-        font-weight: bold;
-        color: #09090B;
+        img{
+          width: 100%;
+        }
+
+        h4{
+          font-size: 20px;
+          font-weight: 400;
+          color: #1f2937;
+        }
+
+        p{
+          padding: 0 1rem;
+          text-align: center;
+        }
+
+        button{
+          color: #ffffff;
+          background-color: #16a34a;
+          padding: 0.6rem 1.8rem;
+          border: solid 1px #21c05c;
+          border-radius: 5px;
+          cursor: pointer;
+
+          &:hover{
+            background-color: #21c05c;
+            transition: 0.3s;
+          }
+        }
       }
     }
-  }
-
-  .card-adquirir{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-
-    .adquirir-title{
-      color: #2563EB;
-      font-weight: 400;
-      font-size: 25px;
-    }
-  }
-
-  .numb2{
-    background-color: #2563EB;
-    color: #fff;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 }
