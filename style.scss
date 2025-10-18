@@ -343,3 +343,62 @@ h2{
     }
   }
 }
+
+.projeto{
+  display: flex;
+  flex-direction: column;
+  padding: 10vh;
+  background-color:#f3f5f8;
+
+  .title-project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .chamada{
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 0 15rem 3rem;
+    }
+
+    button{
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: "Poppins", sans-serif;
+      cursor: pointer;
+    }
+
+    .btns-end{
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 1.5rem;
+
+      #now{
+        color: #ffffff;
+        background-color: #16a34a;
+        padding: 0.6rem 1.8rem;
+        border: solid 1px #21c05c;
+        border-radius: 5px;
+
+        &:hover {
+          background-color: #21c05c;
+          transition: 0.3s;
+        }
+      }
+
+      #more{
+        padding: 0.6rem 1.8rem;
+        color: #2563eb;
+        border: solid 1px #2563eb;
+        border-radius: 5px;
+
+      &:hover {
+        background-color: #dfdfdf;
+        transition: 0.3s;
+        }
+      }
+    }
+  }
+}
