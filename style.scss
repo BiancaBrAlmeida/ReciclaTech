@@ -169,7 +169,8 @@ header {
       margin-top: 6rem;
       border-radius: 10px;
       gap: 2.2rem;
-      padding: 2.3rem;  
+      padding: 2.3rem;
+      border-left: solid 4px #9CA3AF; 
     }
 
       .card-doar{
@@ -397,6 +398,77 @@ h2{
       &:hover {
         background-color: #dfdfdf;
         transition: 0.3s;
+        }
+      }
+    }
+  }
+}
+
+footer{
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+
+  .rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5rem 1.5rem;
+    flex-wrap: wrap;
+
+    .content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .text{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        .logo2{
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 0.6rem;
+
+          h3{
+            color: #FFFFFF;
+            font-family: "Inter" sans-serif;
+          }
+
+          img{
+            width: 1.6rem;
+            height: 1.6rem;
+          }
+        }
+
+        p{
+          color: #9CA3AF;
+          width: 14.5rem;
+        }
+      }
+
+      .links{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        h4{
+          color: #FFFFFF;
+        }
+
+        ul{
+          list-style: none;
+
+          a{
+            text-decoration: none;
+            color: #9CA3AF;
+
+            &:hover{
+              color: #2563EB;
+              transform: 0.3s;
+            }
+          }
         }
       }
     }

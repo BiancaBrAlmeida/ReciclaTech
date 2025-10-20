@@ -151,6 +151,7 @@ header .logo h2 {
   border-radius: 10px;
   gap: 2.2rem;
   padding: 2.3rem;
+  border-left: solid 4px #9CA3AF;
 }
 .quest-ans .cards-como-funciona .card-doar {
   display: flex;
@@ -350,4 +351,63 @@ h2 {
 .projeto .title-project .btns-end #more:hover {
   background-color: #dfdfdf;
   transition: 0.3s;
+}
+
+footer {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+}
+footer .rodape {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5rem 1.5rem;
+  flex-wrap: wrap;
+}
+footer .rodape .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .rodape .content .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+footer .rodape .content .text .logo2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.6rem;
+}
+footer .rodape .content .text .logo2 h3 {
+  color: #FFFFFF;
+  font-family: "Inter" sans-serif;
+}
+footer .rodape .content .text .logo2 img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+footer .rodape .content .text p {
+  color: #9CA3AF;
+  width: 14.5rem;
+}
+footer .rodape .content .links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+footer .rodape .content .links h4 {
+  color: #FFFFFF;
+}
+footer .rodape .content .links ul {
+  list-style: none;
+}
+footer .rodape .content .links ul a {
+  text-decoration: none;
+  color: #9CA3AF;
+}
+footer .rodape .content .links ul a:hover {
+  color: #2563EB;
+  transform: 0.3s;
 }/*# sourceMappingURL=style.css.map */
