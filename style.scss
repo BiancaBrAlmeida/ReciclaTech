@@ -471,6 +471,39 @@ footer{
           }
         }
       }
+
+      .redes{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        
+        h4{
+          color: #FFFFFF;
+        }
+
+        p{
+          color: #9CA3AF;
+          width: 14.5rem;
+        }
+
+        .icons{
+          display: flex;
+          flex-direction: row;
+          gap: 1rem;
+        }
+      }
     }
+  }
+}
+
+.direitos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  border-top: solid 1px #4B5563;
+
+  p{
+    color: #9CA3AF;
   }
 }

@@ -410,4 +410,32 @@ footer .rodape .content .links ul a {
 footer .rodape .content .links ul a:hover {
   color: #2563EB;
   transform: 0.3s;
+}
+footer .rodape .content .redes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+footer .rodape .content .redes h4 {
+  color: #FFFFFF;
+}
+footer .rodape .content .redes p {
+  color: #9CA3AF;
+  width: 14.5rem;
+}
+footer .rodape .content .redes .icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.direitos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  border-top: solid 1px #4B5563;
+}
+.direitos p {
+  color: #9CA3AF;
 }/*# sourceMappingURL=style.css.map */
