@@ -12,7 +12,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  height: 9vh;
+  height: 5rem;
   margin: 1rem 0 0;
   padding: 0 2rem;
   border-bottom: solid 1px #b4aeae;
@@ -505,5 +505,151 @@ footer{
 
   p{
     color: #9CA3AF;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: 7rem;
+    align-items: center;
+    
+    .logo{
+      align-items: center;
+
+      img{
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+
+    ul {
+      flex-direction: row;
+      gap: 2rem;
+
+      li{
+        font-size: 0.7rem;
+        margin-bottom: 1.6rem;
+
+        .active {
+          padding: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .intro {
+    flex-direction: column;
+    margin: 2rem 1rem;
+    margin: 5vh;
+
+    .info {
+      width: 100%;
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      .subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+      }
+
+      .btns-intro {
+        align-self: center;
+      }
+    }
+  }
+
+  .data {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 5vh;
+
+    .numbers {
+      font-size: 2rem;
+    }
+  }
+
+  .quest-ans {
+    margin: 5vh;
+
+    .cards-como-funciona {
+      flex-direction: column;
+      align-items: center;
+
+      .card {
+        width: 90%;
+        height: 35rem;
+      }
+    }
+  }
+
+  .produtos {
+    padding: 5vh;
+
+    .cards-produtos {
+      flex-direction: column;
+      align-items: center;
+
+      .card-items {
+        width: 60%;
+        height: 25rem;
+      }
+    }
+  }
+
+  .experiencia {
+    margin: 5vh;
+
+    .cards-ex {
+      flex-direction: column;
+      align-items: center;
+
+      .card-ex {
+        width: 60%;
+        height: 20rem;
+      }
+    }
+  }
+
+  .projeto {
+    padding: 5vh;
+
+    .title-project {
+
+      .chamada {
+        padding: 0 2rem;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+      }
+
+      .btns-end {
+        align-self: center;
+      }
+    }
+  }
+
+  footer {
+    flex-direction: column;
+
+    .rodape {
+      gap: 2rem;
+
+      .content {
+        width: 100%;
+        align-items: flex-start;
+
+        .text p, .redes p {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .direitos {
+    height: 5rem;
+    padding: 1rem;
+    text-align: center;
   }
 }
