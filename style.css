@@ -462,11 +462,10 @@ footer .rodape .content .redes .icons {
     margin-bottom: 1.6rem;
   }
   header ul li .active {
-    padding: 0.5rem;
+    padding: 0.4rem;
   }
   .intro {
     flex-direction: column;
-    margin: 2rem 1rem;
     margin: 5vh;
   }
   .intro .info {
@@ -499,7 +498,7 @@ footer .rodape .content .redes .icons {
   }
   .quest-ans .cards-como-funciona .card {
     width: 90%;
-    height: 35rem;
+    height: auto;
   }
   .produtos {
     padding: 5vh;
@@ -521,7 +520,7 @@ footer .rodape .content .redes .icons {
   }
   .experiencia .cards-ex .card-ex {
     width: 60%;
-    height: 20rem;
+    height: auto;
   }
   .projeto {
     padding: 5vh;

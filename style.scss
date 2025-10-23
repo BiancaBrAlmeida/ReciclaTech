@@ -532,7 +532,7 @@ footer{
         margin-bottom: 1.6rem;
 
         .active {
-          padding: 0.5rem;
+          padding: 0.4rem;
         }
       }
     }
@@ -540,7 +540,6 @@ footer{
 
   .intro {
     flex-direction: column;
-    margin: 2rem 1rem;
     margin: 5vh;
 
     .info {
@@ -580,7 +579,7 @@ footer{
 
       .card {
         width: 90%;
-        height: 35rem;
+        height: auto;
       }
     }
   }
@@ -608,7 +607,7 @@ footer{
 
       .card-ex {
         width: 60%;
-        height: 20rem;
+        height: auto;
       }
     }
   }
